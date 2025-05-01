@@ -4,6 +4,8 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "clean:rm": "rm -rf node_modules ./**/node_modules ./**/**/node_modules ./**/**/**/node_modules pnpm-lock.yaml",
+    "clean:workspaces": "turbo clean",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"
