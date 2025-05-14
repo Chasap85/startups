@@ -19,6 +19,7 @@
   "devDependencies": {
     "@cl/eslint-config": "workspace:*",
     "@cl/typescript-config": "workspace:*",
+    "@cl/tailwind-config": "workspace:*",
     "@types/node": "^22",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
